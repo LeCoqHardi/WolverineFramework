@@ -1,2 +1,3 @@
 # WolverinePython
-Traduction du framework en python
+wolverineFramework but in Python (future official version)
+STILL EXPERIMENTAL
