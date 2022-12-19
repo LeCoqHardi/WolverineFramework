@@ -4,4 +4,4 @@ STILL EXPERIMENTAL
 
 # HOW TO INSTALL
 
-execute this script (using sudo) : 
+Use this command : ``wget https://raw.githubusercontent.com/LeCoqHardi/installers/main/install_wolverine && chmod +x install_wolverine && sudo ./install_wolverine``
