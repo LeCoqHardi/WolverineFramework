@@ -22,7 +22,7 @@ def main():
     #    os.system("cat /etc/WolverineFramework/logo_quiet")
     #else:
     #    os.system("cat /etc/WolverineFramework/logo") 
-    os.system("./logo_quiet")
+    os.system("/etc/WolverinePython/logo_quiet")
     print("---------------------------------")
     print("What hacking process do you want to perform ?")
     print("---------------------------------\n")
