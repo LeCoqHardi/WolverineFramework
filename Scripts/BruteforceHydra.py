@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import os
 
+Path = "/home/$USER/WolverineFramework"
+
 def BruteforceHydra():
     print("\033[1;4m BRUTEFORCING USING HYDRA \033[0m")
     print("-------------------------\n")
@@ -11,10 +13,10 @@ def BruteforceHydra():
     print("What is the protocol targetted ?")
     print("\x1B[3mnote from the dev, to see the available protocol, refer to this Github Repository \x1B[0m: https://github.com/vanhauser-thc/thc-hydra")
     Protocol = input("WolverineFramework - \033[1;4m Protocol > \033[0m")
-    print("Here are your wordlists (path /etc/WolverineFramework/Wordlists) : ")
+    print("Here are your wordlists (path ", Path,"/Wordlists) : ")
     print("\x1B[3m You can obviously use wordlists from a different path, just type the path of the wordlist you want to use \x1B[0m")
     print("--------------------------------------------------------------------\n")
-    os.system("ls /etc/WolverineFramework/Wordlists")
+    os.system("ls", Path,"/Wordlists")
     print("")
     print("--------------------------------------------------------------------")
     print("Which Wordlist do you want to use (file path) ?")
